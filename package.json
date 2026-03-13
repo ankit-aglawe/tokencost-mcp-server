@@ -1,0 +1,47 @@
+{
+  "name": "tokencost-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for LLM token pricing data — query, compare, and estimate costs for 60+ AI models from OpenAI, Anthropic, Google, Meta, and more",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "tokencost-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "llm",
+    "token-pricing",
+    "ai-models",
+    "cost-calculator",
+    "openai",
+    "anthropic",
+    "gemini",
+    "claude"
+  ],
+  "author": "TokenCost (https://tokencost.app)",
+  "license": "MIT",
+  "homepage": "https://tokencost.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankit-aglawe/tokencost-mcp-server"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
