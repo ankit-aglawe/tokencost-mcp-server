@@ -6,6 +6,10 @@ Query, compare, and estimate costs for models from OpenAI, Anthropic, Google, Me
 
 Built by [TokenCost](https://tokencost.app) — the free LLM token cost calculator.
 
+<a href="https://glama.ai/mcp/servers/ankit-aglawe/tokencost-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ankit-aglawe/tokencost-mcp-server/badge" alt="tokencost-mcp-server MCP server" />
+</a>
+
 ## Tools
 
 | Tool | Description |
